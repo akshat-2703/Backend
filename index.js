@@ -1,25 +1,45 @@
-/*var arr = [1,2,3,4] ;
-const ans = arr.map(function(val){
-    return val*3 ;
-})
-console.log(ans) ;
-console.log(arr);
 
-var arr = [1,2,3,4] ;
-var ans = arr.filter(function(val){
-    if(val > 3) {return true ;}
-    else return false ;
+const fs = require('fs');
+//require fs means aapne fs module o bhar nikala h node s aur usko use kr liya
+/*
+fs.writeFile("hey.txt","hey hello kaise ho",function(err){
+    if(err)
+     console.log(err) ;
+    else
+    console.log("done");
 })
-console.log(ans) ;
-var arr = [1,2,3,4] ;
-var ans = arr.find(function(val){
-    if(val == 2) return val ;
+fs.appendFile("hey.txt"," acha ho",function(err){
+    if(err)
+     console.log(err) ;
+    else
+    console.log("done");
 })
-console.log(ans);
-console.log (arr.indexOf(12) );
-*/
-var arr = [1,3,4] ;
-function abcd(a,c) {
+fs.rename("hey.txt","hello.txt",function(err){
+    if(err)
+     console.log(err) ;
+    else
+    console.log("done");
+})
     
-}
-console.log(abcd.length);
+fs.copyFile("hello.txt","./copsy/copy.txt",function(err){
+    if(err)
+     console.log(err.message) ;
+    else
+    console.log("done");
+})
+    
+fs.unlink("hello.txt",function(err){
+  if(err) console.error(err) ;
+  else console.log("removed") ;  
+})
+fs.unlink("./copy/copy.txt",function(err){
+    if(err) console.error(err) ;
+    else console.log("removed") ;  
+  })
+    
+fs.rmdir("./copy",{recursive: true},function(err){
+    if(err) console.error(err) ;
+    else console.log("removed");
+})
+    */
+   
