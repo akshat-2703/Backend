@@ -23,3 +23,17 @@ function abcd(a,c) {
 }
 console.log(abcd.length);
 */
+http and https 
+protocol - rules  internet par kuch rne
+//npm = node package manager
+//node js core mein jo install aata h wo khalata h module
+//npm se download krte hai wo hota hai package
+//for install and uninstall anything require that is we have //install = npm i packagekanaam
+//dependencies = package and packages ki dependencies 
+//dev-dependencies =aise package jo sirf development m kaam ayge pr jb app bn jayga deploy hoyga tb use ni krege
+//kai baar ap koi script chalate ho and us script mein aap likhte ho as 
+npm start 
+npm run dev ,npm run conccurent why u write run 
+script = start and test  //this is basically when u install npm and node js as install hone k bad node js m operating system m y tunki table m create kr diye the 
+asa command jo hmne khud ne create kiya h for them ase command ke liye hmko run lagana padta h aage
+run basically we have to find in script

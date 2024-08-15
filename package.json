@@ -3,9 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node ./index.js",
+    "chacha": "echo\"thi is fod\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Akshat",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "accessibility": "^6.0.1",
+    "chalk": "^5.3.0",
+    "one-liner-joke": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
