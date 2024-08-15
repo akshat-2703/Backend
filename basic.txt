@@ -41,3 +41,16 @@ run basically we have to find in script
 framework basically wo ek particular set aur rules create krta hai and that rules only we have to follow and we have independent how we follwo but we have to follow that only angular bhi ek framework hi h basically 
 whi react ek library that provide protocol aur things that provide and its our wish that how e make it nothing any depedenc
 as for explain express js basically wo h as we send any request like utube we send request for video and for that request as server basically changes the way as it accepting the request until ssendding the reponse of that request that all will done by express js
+//middleware
+jab bhi server request accept krta hai waha se route ke beech pahuchne tak agar aap  us request ko beech me rokte ho and kuch perform krte ho ,to ye element middleware khlata h 
+//express js k paas ek special route h that for error handling that we have app.use only 
+
+
+//FORM HANDLING AND WORKING WITH THE FORMS 
+//handle backend process of forms and making sure  that the data coming from any frontend library,framework and templating engine ,we still handle it  at the backend 
+
+
+//SESSION COOKIE  
+hum log kcuh bhi data frontend par browser par rkh skte hai and jab bhi aap kuch bhi request backend par karoge wo frontend par saved data automatically backend par chala jaayega
+
+tumne to bheja tha plain text par server ko mila blob which is not directly readable ab is cheej ko handle karna padega ki hum us blob ko waapas se readable kar ske
