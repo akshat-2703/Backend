@@ -37,3 +37,7 @@ npm run dev ,npm run conccurent why u write run
 script = start and test  //this is basically when u install npm and node js as install hone k bad node js m operating system m y tunki table m create kr diye the 
 asa command jo hmne khud ne create kiya h for them ase command ke liye hmko run lagana padta h aage
 run basically we have to find in script
+//express js ek npm package hai 
+framework basically wo ek particular set aur rules create krta hai and that rules only we have to follow and we have independent how we follwo but we have to follow that only angular bhi ek framework hi h basically 
+whi react ek library that provide protocol aur things that provide and its our wish that how e make it nothing any depedenc
+as for explain express js basically wo h as we send any request like utube we send request for video and for that request as server basically changes the way as it accepting the request until ssendding the reponse of that request that all will done by express js
