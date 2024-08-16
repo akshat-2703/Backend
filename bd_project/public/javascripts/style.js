@@ -1,1 +1,0 @@
-alert(" teri bhn ki choot tere maa ka bosda land daluga gaand me tere")

@@ -26,3 +26,16 @@ console.log(__dirname+'/public') it basically shows the path upto the public fol
 as path.join() also do the same that upto the path but for that we have to write const path = require('path') ;
 //as u already write or done the ejs so for writing stylesheet style.css directly dont have to mention public folder in it
 //as ejs pages m aapko public ka naam ni likhana h
+
+//DYNAMIC ROUTES ========
+hum log kai baar kucch routes dekhte hai unmein sirf ek hi hissa change hota hai
+/author/harsh
+/author/harshita
+/author/harshkagf
+as above author part mainly common as in this manner route
+as simple steps can u use as== 
+1.sabse phle browser par jaao 
+2.url likhiye apna jo aapo chaiyye and enter dabay 
+3.ab us url route ko create kariye 
+4.res bjiye kuch bhi 
+5.abhi usi url ko agar dynamic banana hai to realize karo kon sa part dynamic hai us part ke aage route mein : lga do 
