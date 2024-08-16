@@ -1,0 +1,28 @@
+1.intialize a project with npm 
+2.express install
+4.setting up parsers for form 
+
+5.setting up ejs for ejs pages 
+6.setting up public static files     
+ 
+3.dynamic routing - 1.dynamic routing 
+          b. how to get data coming from frontend at backend route
+//frontend basically our ejs
+//ejs basically same like html par aap uske andr calculation kr skte ho dynamic stuff likh skte ho frontend basically our ejs h 
+as like u write in html file as <h1>2+2</h1> 
+as in html was tough that to calculate ejs as u write as <h1>2+2</h1> aur aap usko bta doge k apko ejs m  likhana h then it will very easy manner calculate it 
+ejs html exact duplicate jesa hi hota but ejs have some specific power jo ki aap perform kr ste html k andr
+install ejs from npm 
+setup ejs  as a middleware for view engine
+
+//FOR Dynamic part writing in ejs as basically we write as <%= expression %>
+
+//setting up public static files 
+public static files are basically usually refers to use css,images,vannilla javascript 
+jo frontend p lgti h
+app.use(express.static(path.join(__dirname,'public'))) ;
+//as this line basically refer as sari static files like (images,videos,stylesheet,javascript) in sbko dhundhne  k liye kha jana h public folder m 
+console.log(__dirname+'/public') it basically shows the path upto the public folder or it shows the path
+as path.join() also do the same that upto the path but for that we have to write const path = require('path') ;
+//as u already write or done the ejs so for writing stylesheet style.css directly dont have to mention public folder in it
+//as ejs pages m aapko public ka naam ni likhana h
