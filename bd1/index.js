@@ -14,6 +14,26 @@ app.get("/", function (req, res) {
         res.render("index", { files: files });
     });
 });
+app.get("/file/:filename", function (req, res) {
+    const filename = req.params.filename;
+    fs.readFile(`./files/${filename}`, "utf-8", function (err, filedata) {
+        if (err) {
+            // Handle error, such as file not found
+            return res.status(404).send("File not found");
+        }
+        res.render('show', { file: filedata, filename: filename });
+    });
+});
+app.get("/edit/:filename", function (req, res) {
+    const filename = req.params.filename;
+    res.render('edit', { filename: filename }); 
+});
+app.post("/edit", function (req, res) {
+fs.rename(`./files/${req.body.previous}`, `./files/${req.body.new}`,function(err){
+    res.redirect("/") ;
+})
+});
+
 
 app.post("/create", function (req, res) {
     const title = req.body.title;
